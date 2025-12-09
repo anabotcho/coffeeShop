@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/onboardingFragment">
+
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.example.coffeshop.ui.onboarding.OnboardingFragment"
+        android:label="Onboarding" />
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.coffeshop.ui.home.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.coffeshop.ui.detail.DetailFragment"
+        android:label="Detail">
+        <argument
+            android:name="coffeeId"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.coffeshop.ui.cart.CartFragment"
+        android:label="Cart" />
+
+</navigation>
