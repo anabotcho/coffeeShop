@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CoffeShop">
 
+        <!-- Launcher Activity -->
         <activity
             android:name=".ui.OnboardingActivity"
             android:exported="true">
@@ -23,7 +24,8 @@
 
         </activity>
 
-
+        <activity android:name=".ui.DetailActivity" />
+        <activity android:name=".ui.OrderActivity" />
 
     </application>
 

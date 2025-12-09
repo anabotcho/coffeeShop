@@ -257,7 +257,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="$ 2.0"
-                    android:paintFlags="strikeThruText"
                     android:textSize="15sp"
                     android:textColor="#A2A2A2" />
 
